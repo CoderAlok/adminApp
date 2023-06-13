@@ -1,7 +1,7 @@
 @extends('layouts.app-common')
 
 @section('content')
-    <div class="container">
+    <div class="container" style="background: url('{{ asset('assets/images/bg.jpg') }}')">
         <div class="login-box" style="position: absolute; top: 300px; left: 250px;">
             <div class="login-logo">
                 <a href="../../index2.html"><b>Admin</b>LTE</a>
