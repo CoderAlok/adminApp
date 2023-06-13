@@ -195,7 +195,7 @@
                         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                             data-accordion="false">
                             <!-- Add icons to the links using the .nav-icon class
-                           with font-awesome or any other icon font library -->
+                                   with font-awesome or any other icon font library -->
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -208,45 +208,24 @@
                                     <li class="nav-item">
                                         <a href="{{ route('dashboard.menu1') }}" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Menu 1</p>
+                                            <p>Sub Menu 1</p>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
 
-                            <li class="nav-item menu-open">
-                                <a href="#" class="nav-link active">
-                                    <i class="nav-icon fas fa-table"></i>
-                                    <p>
-                                        Menu 2
-                                        <i class="fas fa-angle-left right"></i>
-                                    </p>
-                                </a>
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="{{ route('dashboard.menu2') }}" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Menu 2</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="nav-icon far fa-envelope"></i>
-                                    <p>
-                                        Menu 3
-                                        <i class="fas fa-angle-left right"></i>
-                                    </p>
+                                <a href="{{ route('dashboard.menu2') }}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Sub Menu 2</p>
                                 </a>
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="{{ route('dashboard.menu3') }}" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Menu 3</p>
-                                        </a>
-                                    </li>
-                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="{{ route('dashboard.menu3') }}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Sub Menu 3</p>
+                                </a>
                             </li>
                         </ul>
                     </nav>
